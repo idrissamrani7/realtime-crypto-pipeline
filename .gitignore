@@ -1,0 +1,21 @@
+# Compilation Scala / sbt
+target/
+project/target/
+project/project/
+.bsp/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Données locales (Delta, checkpoints) — NE JAMAIS pousser
+/tmp/
+*.parquet
+*.crc
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
